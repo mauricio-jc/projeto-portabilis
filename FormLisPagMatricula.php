@@ -36,7 +36,7 @@
                             <?php
                                 require "LibraryPHP.php";
 
-                                $conexao = open_connection("universidade");
+                                $conexao = open_connection();
 
                                 $SQLLisPagMatricula = $conexao->query("SELECT matricula.cod_aluno,
                                                                               cod_matricula,

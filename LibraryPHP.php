@@ -1,8 +1,7 @@
 <?php
-	function open_connection($banco)
-	{	
-		$base = $banco;
-		$connection = new PDO("pgsql:dbname=" . $base . ";user=postgres;password=pg5804;host=localhost");
+	function open_connection()
+	{
+		$connection = new PDO("pgsql:dbname=dfumdjqfopbnno;user=lhbkmjtcgikinc;password=8VxzPVjVSIgcMFELP-tkynhMSE;host=ec2-54-225-197-143.compute-1.amazonaws.com");
 		
 		if(!$connection)
 		{

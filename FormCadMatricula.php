@@ -30,7 +30,7 @@
                         <select id="curso" name="curso" class="form-control inputUnico">
                             <option value="0">----Selecione um curso----</option>
                                 <?php 
-                                    $conexao = open_connection("universidade");
+                                    $conexao = open_connection();
 
                                     $SQLBusCurso = $conexao->query("SELECT cod_curso,
                                                                            nome_curso,

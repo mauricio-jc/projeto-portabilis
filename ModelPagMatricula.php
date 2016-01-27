@@ -5,7 +5,7 @@
 
 	include "LibraryPHP.php";
 
-	$conexao = open_connection("universidade");
+	$conexao = open_connection();
 
 	$cod_matricula = $_GET['cod_matricula'];
 

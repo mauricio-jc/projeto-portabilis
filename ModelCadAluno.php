@@ -7,7 +7,7 @@
 	include "LibraryPHP.php";
 
 	//Abre a conexão com o banco de dados
-	$conexao = open_connection("universidade");
+	$conexao = open_connection();
 
 	if(isset($_GET['Btn_Salvar']))
 	{	

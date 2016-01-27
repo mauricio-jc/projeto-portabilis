@@ -4,7 +4,7 @@
 
 	include "LibraryPHP.php";
 
-	$conexao = open_connection("universidade");
+	$conexao = open_connection();
 
 	if(isset($_GET['Btn_Salvar']))
 	{

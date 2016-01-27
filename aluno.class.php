@@ -8,7 +8,7 @@
 	{
 		public function buscar_alunos($nomePessoa)
 		{
-			$conexao = open_connection("universidade");
+			$conexao = open_connection();
 
 			$dados = array();
 

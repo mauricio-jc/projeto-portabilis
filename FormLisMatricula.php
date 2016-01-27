@@ -66,7 +66,7 @@
 	    						{
 		    						require "LibraryPHP.php";
 
-		    						$conexao = open_connection("universidade");
+		    						$conexao = open_connection();
 
 		    						$aluno         = explode("-", $_GET['aluno']);
 		    						$codigo_aluno  = $aluno[0];

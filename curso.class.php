@@ -8,7 +8,7 @@
 	{
 		public function buscar_cursos($nomeCurso)
 		{
-			$conexao = open_connection("universidade");
+			$conexao = open_connection();
 
 			$dados = array();
 
